@@ -1,6 +1,6 @@
-# 个人 IP 手绘正文配图
+# MHT Illustrations · 个人 IP 手绘正文配图
 
-基于 Ian Xiaohei Illustrations 修改的个人版本。将中文文章里的关键判断、流程、状态和隐喻变成白底、简练手绘的 16:9 正文配图，默认人物已替换为用户自己的绿衬衫青年男性 IP。
+MHT Illustrations 是 mht5405 的个人 IP 配图 Skill，基于 Ian Xiaohei Illustrations 修改。将中文文章里的关键判断、流程、状态和隐喻变成白底、简练手绘的 16:9 正文配图，默认人物已替换为用户自己的绿衬衫青年男性 IP。
 
 ## 当前角色
 
@@ -49,13 +49,13 @@
 ## 安装与使用
 
 ```bash
-git clone https://github.com/mht5405/ian-xiaohei-illustrations.git
-cd ian-xiaohei-illustrations
+git clone https://github.com/mht5405/mht-illustrations.git
+cd mht-illustrations
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-技术目录名和调用名保留，以兼容现有安装；显示名称为“个人 IP 手绘配图”。
+GitHub 仓库名称为 `mht-illustrations`；仓库内的 Skill 子目录与调用名仍保留 `ian-xiaohei-illustrations`，兼容现有安装。显示名称为“个人 IP 手绘配图”，默认角色为 MHT 的绿衬衫青年。
 
 ```text
 Use $ian-xiaohei-illustrations 为这篇文章设计并生成 4 张正文配图。
