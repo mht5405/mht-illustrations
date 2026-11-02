@@ -1,52 +1,53 @@
-# MHT Illustrations · 个人 IP 手绘正文配图
+# MHT Illustrations
 
-MHT Illustrations 是 mht5405 的个人 IP 配图 Skill，基于 Ian Xiaohei Illustrations 修改。将中文文章里的关键判断、流程、状态和隐喻变成白底、简练手绘的 16:9 正文配图，默认人物已替换为用户自己的绿衬衫青年男性 IP。
+**MHT 的个人 IP 手绘配图 Skill。**
 
-## 当前角色
+把文章里的关键观点、流程与抽象关系，变成由 MHT 角色参与的正文插画。适用于中文博客、知识分享、学习笔记和方法论内容：先理解文章，再设计画面，让每张图帮助读者理解一个具体问题。
 
-![绿衬衫青年基准图](ian-xiaohei-illustrations/assets/character/green-youth-reference.png)
+由 [mht5405](https://github.com/mht5405) 维护。项目仓库：[mht5405/mht-illustrations](https://github.com/mht5405/mht-illustrations)。
 
-选择新版简化造型作为默认基准：相比上一版修长的时装插画，五官更概括、轮廓更容易缩小识别，也更适合不同动作的正文场景。绿衬衫、纯白 T、黑短裤和运动鞋是固定服装；黑短发及弯曲翘发是识别点。没有水纹标志，默认不戴耳机。咖啡杯为可选道具，动作需要双手时省略。姿态、表情和视角随文章变化，不固定为持杯站立。
+## MHT 的角色
 
-保持原项目的纯白背景、大量留白、黑色手绘线条和原创物理隐喻，允许角色使用绿白黑平涂色。角色是自然、有朝气的成年人，不沿用小黑的全黑身体、白点眼及变形设定。
+<p align="center">
+  <img src="ian-xiaohei-illustrations/assets/character/green-youth-reference.png" alt="MHT 个人 IP：绿衬衫青年" width="300">
+</p>
 
-## 个人 IP 场景样片
+黑色微乱短发与一小撮翘发，玉绿色宽松衬衫、纯白 T 恤、黑色休闲短裤、白袜和运动鞋，构成 MHT 的固定识别特征。角色保留青年人的好奇、专注与行动力，以简练的手绘轮廓呈现。
 
-另补充一张与小黑对比后优化的机制型样片：人物缩小、线条概括，强化握绳与踩板，让裂缝和货物先进入视线。绿色穿搭与发型识别点保留。这类主次调节用于机制图，不强制用于人物状态图。
+角色会随文章变换视角、动作与表情：观察、分拣、推拉、搭建、修补、行走或思考。咖啡杯是可选道具，需要双手时就放下；服装没有图案或标识，默认不戴耳机。
 
-![机制型配图优化样片](ian-xiaohei-illustrations/assets/scene-examples/07-mutual-cost-refined.png)
+基准图用于保持角色身份，**不固定人物站姿，也不要求每张图都像人物展示海报**。讲机制时，让动作、物件关系和结果更醒目；讲人物状态时，可以放大表情与姿态。
 
-下方为此前六张首轮样片，保留用于观察动作与已知问题。
+## 配图效果
 
-已实际生成六张首轮样片，覆盖八类构图，检验跪姿、站姿、坐姿、侧背视角、行走及连续分镜。人物基准图约束身份，场景样片校准动作与画面密度，不作为固定构图模板。优先参考“按用途筛选”和“把方法搭起来”的简洁程度；管道与连续小车仍有细节可压简，不能将此组视为所有场景均稳定的保证。
+**共同代价 · 概念隐喻**
 
-**修补信息断点**（系统局部、概念隐喻）
+![MHT 角色拉扯共同承重板，货物从裂缝处掉落](ian-xiaohei-illustrations/assets/scene-examples/07-mutual-cost-refined.png)
 
-![修补信息断点](ian-xiaohei-illustrations/assets/scene-examples/01-repair-handoff.png)
+| 信息筛选 | 方法搭建 |
+|---|---|
+| ![MHT 按用途筛选素材](ian-xiaohei-illustrations/assets/scene-examples/02-sort-by-purpose.png) | ![MHT 搭建方法层级](ian-xiaohei-illustrations/assets/scene-examples/04-build-method.png) |
 
-**按用途筛选**（流程）
+| 状态对比 | 探索路线 |
+|---|---|
+| ![MHT 从忙乱到理顺](ian-xiaohei-illustrations/assets/scene-examples/03-before-after.png) | ![MHT 边走边调整路线](ian-xiaohei-illustrations/assets/scene-examples/05-explore-route.png) |
 
-![按用途筛选](ian-xiaohei-illustrations/assets/scene-examples/02-sort-by-purpose.png)
+| 修补断点 | 试错分镜 |
+|---|---|
+| ![MHT 修补信息传递断点](ian-xiaohei-illustrations/assets/scene-examples/01-repair-handoff.png) | ![MHT 尝试、遇阻并调整](ian-xiaohei-illustrations/assets/scene-examples/06-test-and-adjust.png) |
 
-**从忙乱到理顺**（前后对比、角色状态）
+样例展示同一角色在不同场景中的表现，用于校准角色、动作与画面密度。实际配图从文章重新设计隐喻，不直接套用这些构图。查看[样片索引与逐图说明](ian-xiaohei-illustrations/references/scene-examples.md)。
 
-![从忙乱到理顺](ian-xiaohei-illustrations/assets/scene-examples/03-before-after.png)
+## 视觉语言与适用场景
 
-**把方法搭起来**（方法分层）
+- **纯白背景、16:9 横版、大量留白**，方便穿插在正文中。
+- **黑色手绘轮廓与克制平涂色**，绿色服装保持角色辨识度；少量红、橙、蓝批注强调问题、路径和反馈。
+- **一张图讲一个核心意思**，角色亲自参与动作，画面具有轻微荒诞感和幽默感。
+- **人物与道具采用一致的概括程度**，减少五官、衣褶和鞋面细节，让图在正文尺寸下也能读懂。
 
-![把方法搭起来](ian-xiaohei-illustrations/assets/scene-examples/04-build-method.png)
+支持流程、系统局部、前后对比、角色状态、概念隐喻、方法分层、地图路线和小漫画分镜。适合解释观点和关系；不以商业海报、复杂架构图或大段文字信息图为目标。
 
-**边走边调整**（地图路线、概念隐喻）
-
-![边走边调整](ian-xiaohei-illustrations/assets/scene-examples/05-explore-route.png)
-
-**试一下再修改**（小漫画分镜、角色状态）
-
-![试一下再修改](ian-xiaohei-illustrations/assets/scene-examples/06-test-and-adjust.png)
-
-完整[场景索引与检查说明](ian-xiaohei-illustrations/references/scene-examples.md)、[生成提示词](examples/personal-ip-generation.json)和[检查记录](examples/personal-ip-review.json)均已保存。
-
-## 安装与使用
+## 安装
 
 ```bash
 git clone https://github.com/mht5405/mht-illustrations.git
@@ -55,28 +56,68 @@ mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-GitHub 仓库名称为 `mht-illustrations`；仓库内的 Skill 子目录与调用名仍保留 `ian-xiaohei-illustrations`，兼容现有安装。显示名称为“个人 IP 手绘配图”，默认角色为 MHT 的绿衬衫青年。
+安装的是仓库内的 Skill 子目录，显示名称为“个人 IP 手绘配图”。为兼容现有安装，子目录和技术调用名暂保留 `ian-xiaohei-illustrations`；该入口加载的默认角色与规则均为 **MHT 个人 IP 版本**。
+
+## 使用
+
+**先做配图规划**
 
 ```text
-Use $ian-xiaohei-illustrations 为这篇文章设计并生成 4 张正文配图。
-使用我的绿衬衫青年 IP，每张图让角色参与核心动作，保持白底、简练手绘和留白。
+Use $ian-xiaohei-illustrations 分析下面这篇文章哪里值得配图。
+使用 MHT 的个人 IP，先输出配图位置、核心意思、人物动作和简短标注，不要生图。
+
+<粘贴文章或提供文件路径>
 ```
 
-仅需规划时加“先不要生图，输出 shot list”。更多调用示例见 [examples/prompts.md](examples/prompts.md)。最终图保存到 workspace 的 `assets/<article-slug>-illustrations/`，每张独立生成，保留原始文件。
+**生成正文插图**
 
-## 维护位置
+```text
+Use $ian-xiaohei-illustrations 为下面这篇文章生成 3 张正文插图。
+使用 MHT 的个人 IP，保持白底、简练手绘与留白，每张图只讲一个核心意思。
+图片单独保存，先展示效果，不要直接插入原文。
 
-- `ian-xiaohei-illustrations/SKILL.md`：执行入口和工作流。
-- `references/character-ip.md`：角色定义的唯一正文来源（位于 Skill 内）。
-- `assets/character/green-youth-reference.png`：默认角色视觉基准（位于 Skill 内）。
-- `references/style-dna.md`：画风、色彩与留白。
-- `references/prompt-template.md`：生图及编辑模板。
-- `references/composition-patterns.md`：构图、动作和原创隐喻。
-- `references/qa-checklist.md`：角色一致性与画面检查。
-- `agents/openai.yaml`：展示名称及默认提示。
+<粘贴文章或提供文件路径>
+```
 
-原来的 `references/xiaohei-ip.md` 保留为兼容说明，不再定义角色。根目录 `examples/images/` 与 Skill 的 `assets/examples/` 保留原作者历史小黑示例；默认不读取、不传给图像模型，仅在明确研究原画风时参考线条和留白，不能作为当前角色参考。当前形象仅以本页基准图为准。
+**修改已有配图**
 
-## 来源
+```text
+Use $ian-xiaohei-illustrations 修改这张配图。
+保留 MHT 角色与核心意思，缩小人物、减少衣褶和鞋面细节，让关键动作更突出。
+```
 
-原始 Skill 由 [Ian](https://github.com/helloianneo) 创建，源项目为 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)。本分支替换个人 IP 和相关生成规则，保留原项目归属说明与历史素材。见 [NOTICE.md](NOTICE.md) 与 [LICENSE](LICENSE)。
+更多示例见 [examples/prompts.md](examples/prompts.md)。
+
+## 生成与交付
+
+Skill 先提炼文章的关键观点与认知转折，再选择适当构图、设计原创物理隐喻，每张图片独立生成。角色基准图用于保持身份一致；场景样片只在需要时作辅助参考。
+
+最终图片保存到工作区的 `assets/<article-slug>-illustrations/`，按 `01-topic-name.png` 顺序命名。是否插入正文按本次任务的明确要求执行；生成后检查中文、人物一致性、动作接触关系和画面主次，需要时局部修改或重生成。
+
+本仓库已包含实际生成的样片和检查记录；新文章仍需逐图检查，不能保证所有场景都一次生成到位。
+
+## 维护与参考
+
+所有运行资源位于 `ian-xiaohei-illustrations/` 子目录：
+
+| 文件 | 用途 |
+|---|---|
+| [SKILL.md](ian-xiaohei-illustrations/SKILL.md) | 执行入口与配图工作流 |
+| [character-ip.md](ian-xiaohei-illustrations/references/character-ip.md) | MHT 角色身份、服装、动作与可变道具 |
+| [角色基准图](ian-xiaohei-illustrations/assets/character/green-youth-reference.png) | 默认人物外形与配色依据 |
+| [style-dna.md](ian-xiaohei-illustrations/references/style-dna.md) | 画风、颜色、主次和留白 |
+| [prompt-template.md](ian-xiaohei-illustrations/references/prompt-template.md) | 生图与编辑提示词 |
+| [composition-patterns.md](ian-xiaohei-illustrations/references/composition-patterns.md) | 构图与原创隐喻规则 |
+| [qa-checklist.md](ian-xiaohei-illustrations/references/qa-checklist.md) | 生成后的检查与迭代 |
+| [scene-examples.md](ian-xiaohei-illustrations/references/scene-examples.md) | 七张 MHT 场景样片及使用边界 |
+| [openai.yaml](ian-xiaohei-illustrations/agents/openai.yaml) | 展示名称与默认调用提示 |
+
+生成记录：[场景提示词](examples/personal-ip-generation.json)、[逐图检查](examples/personal-ip-review.json)、[机制图优化提示词与参考角色](examples/refinement-generation.json)。
+
+## 项目来源与许可
+
+MHT Illustrations 基于 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 发展，原始 Skill 由 [Ian](https://github.com/helloianneo) 创建。本仓库的个人 IP 定制、角色资源和配套生成规则由 mht5405 维护；保留原项目的归属说明。
+
+原项目示例保存在 `examples/images/` 与 Skill 内的 `assets/examples/`，小黑对比图保存在 `examples/comparison/`。这些是历史或对比素材，不属于当前默认人物参考；默认角色以 MHT 基准图为准。`references/xiaohei-ip.md` 仅保留旧路径兼容说明。
+
+许可与原作者说明见 [LICENSE](LICENSE) 和 [NOTICE.md](NOTICE.md)。
